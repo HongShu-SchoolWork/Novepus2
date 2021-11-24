@@ -9,7 +9,6 @@ public class DBController {
 
     // for user
     public static void writeNewUser(User user){
-
     }
 
     public static boolean ifUserExist(String email){
@@ -102,6 +101,9 @@ public class DBController {
 
     public static void setPostInterest(int post_id,int[] label_id){}
 
+    public static ArrayList<Post> searchPost(String keyword){
+        return null;
+    }
 
     // for comment
     public static void createComment(Comment comment){}
@@ -119,7 +121,7 @@ public class DBController {
 
     }
 
-    public static int getLabelId(String label){
+    public static int getLabelId(String label) {
         // if null add it and getLabelId
         return 0;
     }
