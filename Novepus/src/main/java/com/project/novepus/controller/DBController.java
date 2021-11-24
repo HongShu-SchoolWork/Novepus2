@@ -8,6 +8,7 @@ public class DBController {
 
     // for user
     public static void writeNewUser(User user){
+
     }
 
     public static boolean ifUserExist(String email){
@@ -94,6 +95,7 @@ public class DBController {
     public static int[] getPostInterest(int post_id){
         return null;
     }
+
     public static void setPostInterest(int post_id,int[] label_id){}
 
 
