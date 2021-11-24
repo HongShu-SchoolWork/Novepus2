@@ -2,6 +2,7 @@ package com.project.novepus.controller;
 
 import com.project.novepus.model.*;
 
+import java.sql.Date;
 import java.util.ArrayList;
 
 public class DBController {
@@ -56,6 +57,9 @@ public class DBController {
 
     public static int[] getInterest(int user_id){
         return null;
+    }
+
+    public static void setLast_exit_time(Date date){
     }
 
 
