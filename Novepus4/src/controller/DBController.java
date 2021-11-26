@@ -2,8 +2,18 @@ package controller;
 
 import model.*;
 
-import java.sql.Date;
+import java.io.*;
+import java.io.Console;
+import java.sql.*;
 import java.util.ArrayList;
+import java.util.Scanner;
+
+import model.Comment;
+import model.Log;
+import model.Post;
+import model.User;
+import oracle.jdbc.driver.*;
+import oracle.sql.*;
 
 public class DBController {
 
@@ -143,10 +153,19 @@ public class DBController {
     }
 
     public static void main(String[] args) {
+        String username = "20075519d";
+        String password = "viukiyec";
+
+        try {
+            OracleConnection connect = (OracleConnection)DriverManager.getConnection("jdbc:oracle:thin:@studora.comp.polyu.edu.hk:1521:dbms",username,password);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+
     }
-    // https://www.w3cschool.cn/oraclejc/#
-    // lec3-5
-    //
+
 
 
 }
