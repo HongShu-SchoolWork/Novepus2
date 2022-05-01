@@ -1,5 +1,7 @@
 # Report
 
+A Small Social System Paradigm, also the Group Project of Database System
+
 <img src="https://img.shields.io/badge/Build-Success-brightgreen" /> <img src="https://img.shields.io/badge/Collaboration%20-Teams-orange" />  
 
 ## Abstract
